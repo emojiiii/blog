@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@nuxtjs/color-mode",
     "@unocss/nuxt",
+    "@pinia/nuxt",
     "nuxt-icon"
   ],
   content: {
