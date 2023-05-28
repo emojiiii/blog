@@ -8,11 +8,11 @@ export default defineNuxtConfig({
     "nuxt-icon"
   ],
   content: {
-    // documentDriven: true,
+    documentDriven: true,
     highlight: {
       theme: {
-        default: 'vitesse-light',
-        dark: 'vitesse-dark'
+        default: "solarized-light", // "solarized-dark
+        dark: "solarized-dark"
       },
       preload: [
         'javascript',
