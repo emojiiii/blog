@@ -5,7 +5,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://emojiiii.github.io',
-	base: '/blog',
+	site: 'https://blog.kitt.tools',
 	integrations: [mdx(), sitemap()],
 });
