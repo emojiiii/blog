@@ -9,12 +9,12 @@ heroImage: '/youtube.jpg'
 随便打开一个视频地址, 比如 [Youtube地址](https://www.youtube.com/watch?v=fofX6us0zng) 首先打开 `F12` 观察返回二进制数据的请求地址，如下所示
 
 {/* youtube-link-explorer/video.png */}
-![二进制数据](../../../public/youtube-link-explorer/video.png)
+![二进制数据](/youtube-link-explorer/video.png)
 
 可以发现请求地址是 `https://rr3---sn-i3belnl7.googlevideo.com/videoplayback` 但是这个地址应该是从一个地方返回的, 没有看到其他请求又返回类似的地址, 所以在 `https://www.youtube.com/watch?v=fofX6us0zng` 地址返回的 `html` 中搜索 `videoplayback` 发现有一个 `script` 标签中有这个地址, 如下所示
 
 {/* youtube-link-explorer/script.png */}
-![视频数据](../../../public/youtube-link-explorer/url.png)
+![视频数据](/youtube-link-explorer/url.png)
 
 很明显可以发现有一个 `streamingData` JSON数据, 里面有一个 `formats` 字段, 很明显这里面的 `url` 字段就是视频地址
 
